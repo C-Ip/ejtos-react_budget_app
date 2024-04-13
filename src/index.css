@@ -7,7 +7,54 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.widgetDiv {
+  width: 15rem;
+  height: 4rem;
+}
+
+.widget-margin {
+  margin-left: 0.5rem;
+}
+
+.input {
+  position: relative;
+  width: 8rem;
+}
+
+.set-display{
+  display: inline-block;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.currencySelector {
+  position: relative;
+  background-color: #d1e7dd;
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: 0px;
+  text-align: center;
+}
+
+.display {
+  margin-top: 2.5rem;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.widget-full {
+  margin-top: 2.5rem;
+  grid-column: span 4 / span 4;
+  align-items: center;
+}
+
+.allocationForm{
+  margin-top: 2.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: center;
+  column-gap: 30rem;
 }
