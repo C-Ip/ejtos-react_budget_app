@@ -13,7 +13,7 @@ body {
 }
 
 .widget-margin {
-  margin-left: 0.5rem;
+  margin-left: 1rem;
 }
 
 .input {
@@ -44,6 +44,17 @@ code {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
+
+.item-btn {
+  background: none;
+  border: none;
+}
+
+.item-img {
+  height: 30px;
+  width: 30px;
+}
+
 
 .widget-full {
   margin-top: 2.5rem;

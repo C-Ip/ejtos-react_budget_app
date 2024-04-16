@@ -30,17 +30,16 @@ const App = () => {
                             {/* Add Remaining component here */}
                             <div className='col-sm position-row'>
                                 <Remaining />
-                            </div>
-
-                            {/* Add Remaining component here */}
-                            <div className='col-sm position-row'>
-                                <Currency />
-                            </div>    
+                            </div> 
 
                             {/* Add ExpenseTotal component here  */}
                             <div className='col-sm position-row'>
                                 <ExpenseTotal />
                             </div>
+
+                            <div className='col-sm position-row'>
+                                <Currency />
+                            </div>   
 
                             {/* Add ExpenseList component here */}
                             <div className='col-sm position-row widget-full'>
